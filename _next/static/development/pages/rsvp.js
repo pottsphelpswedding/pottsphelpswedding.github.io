@@ -32,7 +32,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/pottsga/dev/wedding/components/layout.js";
+var _jsxFileName = "/Users/potts_g/dev/wedding/components/layout.js";
 
 
 
@@ -316,16 +316,10 @@ function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var firebase__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! firebase */ "./node_modules/firebase/dist/index.cjs.js");
 /* harmony import */ var firebase__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(firebase__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _secret__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../secret */ "./secret.js");
 
-var config = {
-  apiKey: "AIzaSyAY8kO0VT2ABs2WwrpgnH1Hu14CocXW7Ug",
-  authDomain: "wedding-d3b87.firebaseapp.com",
-  databaseURL: "https://wedding-d3b87.firebaseio.com",
-  projectId: "wedding-d3b87",
-  storageBucket: "wedding-d3b87.appspot.com",
-  messagingSenderId: "12845332445"
-};
-/* harmony default export */ __webpack_exports__["default"] = (!firebase__WEBPACK_IMPORTED_MODULE_0__["apps"].length ? firebase__WEBPACK_IMPORTED_MODULE_0__["initializeApp"](config) : firebase__WEBPACK_IMPORTED_MODULE_0__["app"]());
+
+/* harmony default export */ __webpack_exports__["default"] = (!firebase__WEBPACK_IMPORTED_MODULE_0__["apps"].length ? firebase__WEBPACK_IMPORTED_MODULE_0__["initializeApp"](_secret__WEBPACK_IMPORTED_MODULE_1__["default"]) : firebase__WEBPACK_IMPORTED_MODULE_0__["app"]());
 
 /***/ }),
 
@@ -57139,9 +57133,9 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Frsvp&absolutePagePath=%2FUsers%2Fpottsga%2Fdev%2Fwedding%2Fpages%2Frsvp.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Frsvp&absolutePagePath=%2FUsers%2Fpotts_g%2Fdev%2Fwedding%2Fpages%2Frsvp.js!./":
 /*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Frsvp&absolutePagePath=%2FUsers%2Fpottsga%2Fdev%2Fwedding%2Fpages%2Frsvp.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Frsvp&absolutePagePath=%2FUsers%2Fpotts_g%2Fdev%2Fwedding%2Fpages%2Frsvp.js ***!
   \*********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -74846,7 +74840,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/pottsga/dev/wedding/pages/rsvp.js";
+var _jsxFileName = "/Users/potts_g/dev/wedding/pages/rsvp.js";
 
 
 
@@ -74939,27 +74933,27 @@ function (_React$Component) {
           lineNumber: 48
         },
         __self: this
-      }, this.state.message), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("form", {
+      }, this.state.message), !this.state.message && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("form", {
         onSubmit: function onSubmit(e) {
           return _this3.onSubmit(e);
         },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "flexContainer",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 53
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "flexItem",
+        className: "flexContainer",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 54
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "flexItem",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -74967,7 +74961,7 @@ function (_React$Component) {
         htmlFor: "firstName",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 56
         },
         __self: this
       }, "First Name"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -74982,14 +74976,14 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 57
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexItem",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 59
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -74997,7 +74991,7 @@ function (_React$Component) {
         htmlFor: "lastName",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 60
         },
         __self: this
       }, "Last Name"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75012,21 +75006,21 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 61
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 65
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexItem",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 66
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -75034,20 +75028,20 @@ function (_React$Component) {
         htmlFor: "attendingWedding",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 67
         },
         __self: this
       }, "RSVP for Wedding"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("small", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 68
         },
         __self: this
       }, "Will you be able to attend our wedding in Abbeville, SC on Oct 05, 2019?"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "radioGroup",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 70
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75062,21 +75056,21 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 71
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
         htmlFor: "attendingWedding_yes",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 72
         },
         __self: this
       }, "Accepts")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "radioGroup",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 75
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75093,28 +75087,28 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 76
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
         htmlFor: "attendingWedding_no",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 77
         },
         __self: this
       }, "Regrets")))), this.state.attendingWedding && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 83
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexItem",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 84
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -75122,7 +75116,7 @@ function (_React$Component) {
         htmlFor: "numAdultsAttendingWedding",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 85
         },
         __self: this
       }, "Number of Adults Attending Wedding"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75138,14 +75132,14 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 86
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexItem",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 88
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -75153,7 +75147,7 @@ function (_React$Component) {
         htmlFor: "numChildrenAttendingWedding",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 89
         },
         __self: this
       }, "Number of Children Attending Wedding"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75169,21 +75163,21 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 90
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 95
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexItem",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 96
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -75191,13 +75185,13 @@ function (_React$Component) {
         htmlFor: "attendingWeddingReception",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 97
         },
         __self: this
       }, "RSVP for Reception"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("small", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 98
         },
         __self: this
       }, "Will you be able to attend our wedding reception at the ", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
@@ -75205,14 +75199,14 @@ function (_React$Component) {
         href: "https://www.ptc.edu/continuing-ed/meeting-event-facilities/conference-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 98
         },
         __self: this
       }, "Conference Center"), " Piedmont Technical College in Greenwood, SC after the wedding on Oct 05, 2019?"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "radioGroup",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 100
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75228,21 +75222,21 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 101
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
         htmlFor: "attendingWeddingReception_yes",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 102
         },
         __self: this
       }, "Accepts")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "radioGroup",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 105
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75260,28 +75254,28 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 106
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
         htmlFor: "attendingWeddingReception_no",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 107
         },
         __self: this
       }, "Regrets")))), this.state.attendingWeddingReception && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 113
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexItem",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 114
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -75289,7 +75283,7 @@ function (_React$Component) {
         htmlFor: "numAdultsAttendingWeddingReception",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114
+          lineNumber: 115
         },
         __self: this
       }, "Number of Adults Attending Wedding Reception"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75305,14 +75299,14 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 115
+          lineNumber: 116
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexItem",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117
+          lineNumber: 118
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -75320,7 +75314,7 @@ function (_React$Component) {
         htmlFor: "numChildrenAttendingWeddingReception",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118
+          lineNumber: 119
         },
         __self: this
       }, "Number of Children Attending Wedding Reception"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75336,21 +75330,21 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119
+          lineNumber: 120
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 125
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexItem",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 126
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -75358,20 +75352,20 @@ function (_React$Component) {
         htmlFor: "attendingWeddingShower",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 126
+          lineNumber: 127
         },
         __self: this
       }, "RSVP for Wedding Shower"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("small", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 127
+          lineNumber: 128
         },
         __self: this
       }, "Will you be able to attend our wedding shower at the Old Kent Jailhouse at 497 Middlebury Rd., Kent, OH 44240 on Sunday, July 28th, 2019?"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "radioGroup",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 129
+          lineNumber: 130
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75387,21 +75381,21 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 130
+          lineNumber: 131
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
         htmlFor: "attendingWeddingShower_yes",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131
+          lineNumber: 132
         },
         __self: this
       }, "Accepts")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "radioGroup",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134
+          lineNumber: 135
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75419,28 +75413,28 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135
+          lineNumber: 136
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
         htmlFor: "attendingWeddingShower_no",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136
+          lineNumber: 137
         },
         __self: this
       }, "Regrets")))), this.state.attendingWeddingShower && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142
+          lineNumber: 143
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexItem",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143
+          lineNumber: 144
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -75448,7 +75442,7 @@ function (_React$Component) {
         htmlFor: "numAdultsAttendingWeddingShower",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144
+          lineNumber: 145
         },
         __self: this
       }, "Number of Adults Attending Wedding Shower"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75464,14 +75458,14 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145
+          lineNumber: 146
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "flexItem",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 147
+          lineNumber: 148
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
@@ -75479,7 +75473,7 @@ function (_React$Component) {
         htmlFor: "numChildrenAttendingWeddingShower",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 148
+          lineNumber: 149
         },
         __self: this
       }, "Number of Children Attending Wedding Shower"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
@@ -75495,14 +75489,14 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 149
+          lineNumber: 150
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
         type: "submit",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154
+          lineNumber: 155
         },
         __self: this
       })));
@@ -75516,14 +75510,35 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 10:
+/***/ "./secret.js":
+/*!*******************!*\
+  !*** ./secret.js ***!
+  \*******************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var firebase_config = {
+  apiKey: "AIzaSyAgmZvOk4jlt0-us6yNPxfNgYmvc2sF_do",
+  authDomain: "wedding-119cf.firebaseapp.com",
+  databaseURL: "https://wedding-119cf.firebaseio.com",
+  projectId: "wedding-119cf",
+  storageBucket: "wedding-119cf.appspot.com",
+  messagingSenderId: "100983870123"
+};
+/* harmony default export */ __webpack_exports__["default"] = (firebase_config);
+
+/***/ }),
+
+/***/ 5:
 /*!*************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Frsvp&absolutePagePath=%2FUsers%2Fpottsga%2Fdev%2Fwedding%2Fpages%2Frsvp.js ***!
+  !*** multi next-client-pages-loader?page=%2Frsvp&absolutePagePath=%2FUsers%2Fpotts_g%2Fdev%2Fwedding%2Fpages%2Frsvp.js ***!
   \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Frsvp&absolutePagePath=%2FUsers%2Fpottsga%2Fdev%2Fwedding%2Fpages%2Frsvp.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Frsvp&absolutePagePath=%2FUsers%2Fpottsga%2Fdev%2Fwedding%2Fpages%2Frsvp.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Frsvp&absolutePagePath=%2FUsers%2Fpotts_g%2Fdev%2Fwedding%2Fpages%2Frsvp.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Frsvp&absolutePagePath=%2FUsers%2Fpotts_g%2Fdev%2Fwedding%2Fpages%2Frsvp.js!./");
 
 
 /***/ }),
@@ -75539,5 +75554,5 @@ module.exports = dll_4d62ad301d4c9a40eec7;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]));;
+},[[5,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=rsvp.js.map
