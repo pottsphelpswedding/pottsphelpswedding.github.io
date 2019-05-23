@@ -251,7 +251,7 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavLink"], {
         target: "_blank",
-        href: "https://www.amazon.com/wedding/greg-potts-michelle-phelps-abbeville-october-2019/registry/5EGW9T4EIEYQ",
+        href: "https://www.target.com/gift-registry/giftgiver?registryId=810077b9c17d4d0793b702f584fb8792&type=WEDDING",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 80
