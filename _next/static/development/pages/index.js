@@ -251,13 +251,27 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavLink"], {
         target: "_blank",
-        href: "https://www.target.com/gift-registry/giftgiver?registryId=810077b9c17d4d0793b702f584fb8792&type=WEDDING",
+        href: "https://www.amazon.com/wedding/share/phelpspottsregistry",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 80
         },
         __self: this
-      }, "Wedding Registry"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("main", {
+      }, "Amazon Registry")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavItem"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavLink"], {
+        target: "_blank",
+        href: "https://www.target.com/gift-registry/giftgiver?registryId=810077b9c17d4d0793b702f584fb8792&type=WEDDING",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87
+        },
+        __self: this
+      }, "Target Registry"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("main", {
         style: {
           minHeight: 'calc(100vh - 76px)',
           margin: this.props.container === 'true' ? '10px' : '0',
@@ -267,7 +281,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 96
         },
         __self: this
       }, this.props.title ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
@@ -276,7 +290,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 105
         },
         __self: this
       }, this.props.title) : '', this.props.children), this.props.footer === 'false' ? '' : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("footer", {
@@ -285,13 +299,13 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 114
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 115
         },
         __self: this
       }, "\xA9 ", new Date().getFullYear())));
